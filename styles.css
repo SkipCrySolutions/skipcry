@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #EADFB4;
+    color: #F6995C;
+    /* padding: 1em; */
+    text-align: center;
+    display: flex;
+}
+
+.title-container {
+    text-align: right;
+}
+
+.subtitle {
+    color: #51829B;
+}
+
+h1 {
+    font-size: 30px; /* Set the desired font size for h1 */
+    margin-bottom: 5px; /* Add a small margin at the bottom */
+  }
+
+  h4 {
+    font-size: 14px; /* Set the desired font size for h4 */
+    margin: 0; /* Remove margin for h4 */
+  }
+
+footer {
+    background-color: #EADFB4;
+    color: #F6995C;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer img {
+    width: 4em;
+    height: 4em;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.centered-text {
+    color: #9BB0C1;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc; /* Add a border for a nice visual effect */
+    border-radius: 10px; /* Add rounded corners for a softer look */
+    background-color: #fff; /* Set a background color for the container */
+  }
+
+.logo {
+    text-align: center;
+    padding: 1em;
+}
+
+.logo img {
+    max-height: 60px; /* Set the maximum height for your logo */
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button-primary {
+    color: #EADFB4;
+    background-color: #51829B;
+    border: 2px solid #51829B;
+}

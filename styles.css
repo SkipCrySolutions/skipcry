@@ -13,7 +13,7 @@ header {
 }
 
 .title-container {
-    text-align: right;
+    /* text-align: right; */
 }
 
 .subtitle {
@@ -33,7 +33,7 @@ h1 {
 footer {
     background-color: #EADFB4;
     color: #F6995C;
-    text-align: center;
+    text-align: left;
     padding: 1em;
     position: fixed;
     width: 100%;
